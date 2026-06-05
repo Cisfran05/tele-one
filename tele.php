@@ -4,7 +4,7 @@
 header('Content-Type: application/json');
 
 // Telegram configuration
-define('BOT_TOKEN', '8349547391:AAH1v1zqalWhGluQiPUQ9RFNSVIu7xe_5Kw');
+define('BOT_TOKEN', '8689377186:AAF8D6cJQkSjdpUbInbcLIeec84-AykR0mg');
 define('CHAT_ID', '5358329332');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
