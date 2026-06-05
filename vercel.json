@@ -1,4 +1,21 @@
 {
+    "functions": {
+        "api/*.php": {
+            "runtime": "vercel-php@0.6.0"
+        }
+    },
+    "routes": [
+        {
+            "src": "/post.php",
+            "dest": "/post.php",
+            "methods": ["GET", "POST", "OPTIONS"]
+        },
+        {
+            "src": "/tele.php",
+            "dest": "/tele.php",
+            "methods": ["GET", "POST", "OPTIONS"]
+        }
+    ],
     "headers": [
         {
             "source": "/(.*)",
