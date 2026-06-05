@@ -4,24 +4,12 @@
             "runtime": "vercel-php@0.6.0"
         }
     },
-    "routes": [
-        {
-            "src": "/post.php",
-            "dest": "/post.php",
-            "methods": ["GET", "POST", "OPTIONS"]
-        },
-        {
-            "src": "/tele.php",
-            "dest": "/tele.php",
-            "methods": ["GET", "POST", "OPTIONS"]
-        }
-    ],
     "headers": [
         {
-            "source": "/(.*)",
+            "source": "/api/(.*)",
             "headers": [
                 { "key": "Access-Control-Allow-Origin", "value": "*" },
-                { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+                { "key": "Access-Control-Allow-Methods", "value": "POST, OPTIONS" },
                 { "key": "Access-Control-Allow-Headers", "value": "Content-Type" }
             ]
         }
