@@ -12,7 +12,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
     exit();
 }
-header('Content-Type: application/json');
 
 // Telegram configuration
 define('BOT_TOKEN', '8689377186:AAF8D6cJQkSjdpUbInbcLIeec84-AykR0mg');
