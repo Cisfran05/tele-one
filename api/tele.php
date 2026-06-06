@@ -88,7 +88,7 @@ $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 curl_close($ch);
 
 if ($httpCode == 200) {
-    echo json_encode(['success' => true, 'message' => 'Sent to Telegram']);
+    echo json_encode(['success' => true]);
 } else {
     http_response_code(500);
     echo json_encode(['error' => 'Failed to send to Telegram']);
